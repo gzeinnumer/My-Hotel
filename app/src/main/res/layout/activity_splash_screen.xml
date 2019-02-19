@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/parentSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textWarning"
+            android:layout_centerInParent="true"
+            android:text="Get Ready!!"
+            android:textColor="@color/colorAccent"
+            android:textStyle="italic"
+            android:textSize="31dp"
+            android:textAlignment="center"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <ProgressBar
+            android:indeterminate="true"
+            android:indeterminateDuration="3111"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/colorPrimary"
+            android:layout_centerInParent="true"
+            android:layout_width="261dp"
+            android:layout_height="261dp" />
+        <ProgressBar
+            android:indeterminate="true"
+            android:indeterminateDuration="3111"
+            android:indeterminateTintMode="src_atop"
+            android:indeterminateTint="@color/colorAccent"
+            android:layout_centerInParent="true"
+            android:layout_width="341dp"
+            android:layout_height="341dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="11dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Version 1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

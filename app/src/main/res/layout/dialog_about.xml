@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#e1e1e1"
+    android:padding="11dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/ic_airline"
+        android:layout_width="141dp"
+        android:layout_height="141dp" />
+    <TextView
+        android:textSize="21sp"
+        android:textAlignment="center"
+        android:text="My Hotels Padang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textAlignment="center"
+        android:text="Palikasi yang bertujuan untuk
+menampilkan daftar Hotel yang
+ada di kota padang, dengan
+detail harga, fasilitas dan
+menu makanan yang disediakan."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="27 data hotel yang terdaftar."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Versi 1.0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+

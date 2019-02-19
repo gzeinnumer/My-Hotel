@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_marginBottom="7dp"
+    android:background="@drawable/shape_text_detail_3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:visibility="gone"
+        android:text="idFMakan"
+        android:id="@+id/idFMakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_weight="19"
+        android:text="menu"
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_weight="19"
+        android:text="harga"
+        android:id="@+id/hargaMakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+        android:layout_marginBottom="5dp"
+        android:text="typeMakanan"
+        android:id="@+id/typeMakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/typeMakanan"
+        android:text="keterangan"
+        android:id="@+id/keteranganMakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

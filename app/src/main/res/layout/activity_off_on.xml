@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OffOn">
+    <android.support.v7.widget.CardView
+        android:layout_centerInParent="true"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="11dp"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:padding="11dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16sp"
+                android:textAlignment="center"
+                android:text="Select Mode"
+                android:layout_marginBottom="11dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/btnOffline"
+                android:layout_gravity="center"
+                android:layout_marginTop="11dp"
+                android:text="Offline"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                app:spinning_bar_color="#fff"
+                app:spinning_bar_padding="6dp"
+                app:spinning_bar_width="6dp"
+                android:background="@drawable/shape_button_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"/>
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/btnOnline"
+                android:layout_gravity="center"
+                android:layout_marginTop="11dp"
+                android:text="Online"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                app:spinning_bar_color="#fff"
+                app:spinning_bar_padding="6dp"
+                app:spinning_bar_width="6dp"
+                android:background="@drawable/shape_button_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+http://androidzein.000webhostapp.com/selectKoordinatsFull.php
+https://androidzein.000webhostapp.com/selectKoordinatsFull_Hotel.php
+https://androidzein.000webhostapp.com/selectKoordinatsFull_Makan.php
+https://androidzein.000webhostapp.com/selectKoordinatsFull_Kamar.php
+http://androidzein.000webhostapp.com/selectKoordinatsFull.php
+http://androidzein.000webhostapp.com/selectKoordinatsFull.php

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#e1e1e1"
+    android:padding="11dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imgMe"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/me"
+        android:layout_width="141dp"
+        android:layout_height="141dp" />
+    <TextView
+        android:id="@+id/namaMe"
+        android:textSize="21sp"
+        android:textAlignment="center"
+        android:text="GZeinNumer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/emailMe"
+        android:text="m.fadli.zein.17@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
